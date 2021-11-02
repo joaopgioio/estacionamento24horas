@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Trilha DevOps da 4Linux
 
 <!-- Altere a Flag abaixo com sua URL do Travis -->
@@ -6,3 +7,6 @@
 ## Aplicação criada para exemplificar o Ciclo de uma PipeLine DevOps
 
 Para maiores informações acesse o [Site do Google](https://www.google.com)
+=======
+# estacionamento24horas
+>>>>>>> ee1d7ede346e2fadcbf498f6e91fc7b04ac85c4c
