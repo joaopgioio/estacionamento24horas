@@ -21,4 +21,4 @@ deploy:
   provider: heroku
   api-key:  $HEROKU_API_KEY
     #secure: $APP_GIOIO_KEY
-  app: estacionamento24horas
+  app: estacionamento24horas 
