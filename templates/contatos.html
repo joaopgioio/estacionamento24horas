@@ -9,30 +9,34 @@
     <meta name="keywords" content="Estacionamento, 24 horas, carros, motos, fáci, contato">
     <meta name="author" content="João Paulo Alves">
     <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
 </head>
 <body>
     <header>
-        <img src="images/logo-estacionamento.png" alt="Logo do empresa de estacionamento  24 horas" width="100" height="100">
-        <p id="logo">Estacinamento 24 horas</p>
-        <p>Slogan da empresa aqui</p>
+        <img src="../static/imgs/logo-estacionamento-removebg-preview.png" alt="Logo do empresa de estacionamento  24 horas" width="100" height="100">
+
+        <nav>
+            <a href="#" id="menu-icon"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="planos.html">Planos</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    
+
+        <p id="slogan">Estacinamento 24 horas</p>
 
     </header>
     
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="planos.html">Planos</a></li>
-            <li><a href="contatos.html">Contatos</a></li>
-        </ul>
-    </nav>
-
     <main>
         <h1>Entre em contato conosco</h1>
 
         <section id="contato">
-            <h2>Contato</h2>
             <form action="/contato/" method="POST">
                     <label for="nome">Nome</label>
                     <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui..."><br>
@@ -47,17 +51,18 @@
                     <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem aqui...">
                     </textarea><br>
 
-                    <button type="submit">Enviar</button>
+                    <button type="submit" class="button">Enviar</button>
 
             </form>
         </section>
 
-        <section>
-            <h2>Descrição</h2>
+        <section id="informacoes">
+            <div class="detalhes">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </div>
 
-            <div id="image1">
-                <img src="images/logo-estacionamento.png" alt="Logo do Estacionamento" width="100" height="200">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.14816645138!2d-46.481025885188615!3d-23.563121484682018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce670260586dd7%3A0x4062164338c5a2b!2sRua%20Moacir%20Fagundes%20-%20Cidade%20Lider%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008275-770!5e0!3m2!1spt-BR!2sbr!4v1636214797890!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
 
 
@@ -66,7 +71,7 @@
     </main>
     
     <footer>
-        <nav>
+        <nav id="nav-footer">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="servicos.html">Serviços</a></li>
@@ -75,12 +80,13 @@
                 <li><a href="contatos.html">Contatos</a></li>
             </ul>
         </nav>
-    </footer>
 
-    <section id="copyright">
-        <h2>Direito</h2>
-        <p>Copyright - Todos os direitos reservados | Desenvolvido por João Paulo</p>
-    </section>
+        <section id="copyright">
+            <h2>Direitos</h2>
+            <p>Copyright - Todos os direitos reservados | Desenvolvido por João Paulo</p>
+        </section>        
+    
+    </footer>
 
 </body>
 </html>
